@@ -1,0 +1,87 @@
+{
+ "date": "2026-10-31",
+ "dilemmas": [
+  {
+   "id": "m-0004",
+   "kind": "moral",
+   "fr": {
+    "title": "La caméra dans la cage d'escalier",
+    "scenario": "Après deux cambriolages, un voisin a installé une caméra dans la cage d'escalier de ton immeuble. Elle filme les paliers, donc tes allées et venues, tes invités, tes horaires de sortie. Les vols ont cessé. Ce soir, l'assemblée des copropriétaires vote pour la garder ou la retirer, et c'est ta voix qui décide.",
+    "a": "Tu votes pour garder la caméra",
+    "b": "Tu votes pour la retirer",
+    "argsA": [
+     "Les cambriolages ont cessé le jour où elle a été posée ; retirer ce qui marche, c'est rouvrir la porte.",
+     "Un palier n'est pas ta chambre : ce que tu y fais, tes voisins le voient déjà."
+    ],
+    "argsB": [
+     "Une caméra qui note chaque visite transforme un immeuble en fichier, et un fichier finit toujours par servir à autre chose.",
+     "La sécurité collective ne peut pas se payer avec l'intimité de ceux qui n'ont rien demandé."
+    ],
+    "philo": "Liberté contre sécurité, c'est le cœur du contrat social : jusqu'où chacun cède pour la protection de tous, et qui garde les images."
+   },
+   "en": {
+    "title": "The camera in the stairwell",
+    "scenario": "After two burglaries, a neighbour installed a camera in your building's stairwell. It films the landings, so your comings and goings, your guests, the hours you keep. The thefts stopped. Tonight the owners' meeting votes on keeping or removing it, and your vote is the one that decides.",
+    "a": "You vote to keep the camera",
+    "b": "You vote to remove it",
+    "argsA": [
+     "The burglaries stopped the day it went up; removing what works reopens the door.",
+     "A landing is not your bedroom: whatever you do there, your neighbours already see."
+    ],
+    "argsB": [
+     "A camera that logs every visit turns a building into a file, and files always end up serving another purpose.",
+     "Collective safety cannot be paid for with the privacy of those who never asked."
+    ],
+    "philo": "Liberty versus security is the heart of the social contract: how much each person gives up for everyone's protection, and who keeps the footage."
+   }
+  },
+  {
+   "id": "v-0004",
+   "kind": "vie",
+   "fr": {
+    "title": "La promotion ou les soirées",
+    "scenario": "On te propose une promotion : vingt pour cent de salaire en plus, un titre, et des soirées ainsi que des week-ends régulièrement pris. Tu as refusé la précédente il y a deux ans. Il n'y en aura peut-être pas de troisième.",
+    "a": "Tu acceptes la promotion",
+    "b": "Tu refuses et gardes tes soirées",
+    "argsA": [
+     "Vingt pour cent pendant dix ans, c'est un appartement ; les soirées, tu les retrouveras.",
+     "Refuser deux fois, c'est dire qu'on ne veut pas avancer, et on finit par te croire."
+    ],
+    "argsB": [
+     "Personne, sur son lit de mort, n'a regretté les week-ends passés avec les siens.",
+     "Un titre ne te rend pas tes trente ans ; le temps est la seule chose que l'argent n'achète pas en retour."
+    ]
+   },
+   "en": {
+    "title": "The promotion or the evenings",
+    "scenario": "You are offered a promotion: twenty percent more pay, a title, and evenings and weekends regularly taken. You turned down the previous one two years ago. There may not be a third.",
+    "a": "You accept the promotion",
+    "b": "You decline and keep your evenings",
+    "argsA": [
+     "Twenty percent over ten years is an apartment; the evenings will come back.",
+     "Declining twice says you do not want to move up, and eventually people believe you."
+    ],
+    "argsB": [
+     "Nobody on their deathbed regretted the weekends spent with their people.",
+     "A title does not give you your thirties back; time is the one thing money cannot buy back."
+    ]
+   }
+  },
+  {
+   "id": "l-0004",
+   "kind": "leger",
+   "fr": {
+    "title": "Rembobiner ou avancer",
+    "scenario": "Tu peux rembobiner une journée entière une fois par an, ou avancer rapidement une heure chaque jour.",
+    "a": "Rembobiner une journée par an",
+    "b": "Avancer une heure par jour"
+   },
+   "en": {
+    "title": "Rewind or fast forward",
+    "scenario": "You can rewind one full day once a year, or fast forward one hour every day.",
+    "a": "Rewind one day a year",
+    "b": "Fast forward one hour a day"
+   }
+  }
+ ]
+}

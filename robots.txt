@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /content/
+Sitemap: https://basculeapp.com/sitemap.xml

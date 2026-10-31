@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Confidentialité · Bascule</title>
+<meta name="description" content="Ce que l'app Bascule et son site traitent comme données, pourquoi et chez qui.">
+<link rel="canonical" href="https://basculeapp.com/fr/confidentialite/">
+<link rel="alternate" hreflang="fr" href="https://basculeapp.com/fr/confidentialite/">
+<link rel="alternate" hreflang="en" href="https://basculeapp.com/en/privacy/">
+<meta name="theme-color" content="#FF6B4A">
+<link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+<link rel="preload" href="../../assets/fonts/archivo-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="band band--short">
+  <div class="wrap topbar">
+    <a class="brand" href="../">
+      <svg viewBox="250 190 540 650" aria-hidden="true"><g transform="translate(16 0) rotate(12 512 512)" fill="#FFFFFF"><rect x="300" y="232" width="104" height="560"/><path d="M434 232H560A136 136 0 0 1 560 504H434Z"/><path d="M434 520H574A136 136 0 0 1 574 792H434Z"/></g></svg>
+      <span>Bascule</span>
+    </a>
+    <a class="lang" href="../../en/privacy/" hreflang="en" lang="en" aria-label="English version">EN</a>
+  </div>
+  <div class="wrap intro">
+    <h1>Confidentialité</h1>
+  </div>
+</header>
+
+<main class="wrap prose" id="contenu">
+  <p class="updated">Dernière mise à jour : 30 octobre 2026</p>
+  <p>Bascule se joue sans compte : pas d'inscription, pas d'e-mail, pas de nom. Cette page explique ce que l'app iPhone et ce site traitent quand même, pourquoi, et chez qui.</p>
+
+  <h2>En bref</h2>
+  <ul>
+    <li>Tes votes sont comptés sous un identifiant anonyme, qui sert uniquement à t'empêcher de voter deux fois.</li>
+    <li>Ta série, ta boussole morale et tes statistiques sont calculées sur ton téléphone et n'en sortent pas.</li>
+    <li>Dans l'app gratuite, des publicités Google financent le jeu. Ton accord est demandé avant toute publicité personnalisée. Bascule+ les supprime.</li>
+    <li>Ce site ne dépose aucun cookie, ne mesure pas l'audience et n'affiche aucune publicité.</li>
+  </ul>
+
+  <h2>Qui est responsable</h2>
+  <p>Arnaud Clavien, Yverdon-les-Bains, Suisse.<br>Contact : <a href="mailto:contact@basculeapp.com">contact@basculeapp.com</a></p>
+
+  <h2>Les votes</h2>
+  <p>Au premier vote, l'app ou le site crée un identifiant anonyme avec Firebase Authentication, un service de Google. Chaque vote est ensuite enregistré dans Cloud Firestore (Google), dans un centre de données situé à Zurich, avec quatre informations : cet identifiant anonyme, le dilemme concerné, ton choix (A ou B) et l'heure du vote.</p>
+  <p>Ces données servent à deux choses : refuser un second vote sur le même dilemme et calculer les pourcentages mondiaux, qui ne contiennent que des totaux. L'identifiant n'est relié à aucun nom, aucune adresse e-mail ni aucun compte. Il reste sur ton iPhone (dans l'app) ou dans ton navigateur (sur le site) : si tu supprimes l'app ou les données du site, plus personne ne peut rattacher tes votes passés à toi. Ils restent dans les totaux.</p>
+  <p>Les votes sont conservés tant que Bascule existe, puisqu'ils forment les pourcentages publiés. Base : notre intérêt légitime à faire fonctionner le jeu que tu utilises.</p>
+
+  <h2>Ce qui reste sur ton appareil</h2>
+  <p>Dans l'app, tes votes, ta série, ta boussole, tes statistiques, tes bonus et l'heure de ton rappel sont stockés sur ton iPhone. La boussole est calculée sur place et n'est jamais envoyée. Le rappel quotidien est une notification locale : aucun serveur ne l'envoie.</p>
+  <p>Sur le site, ton navigateur garde la liste des dilemmes votés et leur dernier résultat connu, pour te les réafficher quand tu reviens. Rien de cela n'est envoyé.</p>
+
+  <h2>Les propositions de dilemmes</h2>
+  <p>Quand tu proposes un dilemme dans l'app, le document enregistré contient ton texte, sa langue et l'heure d'envoi, rien d'autre. Une personne lit chaque proposition. N'y écris aucune information personnelle, ni sur toi ni sur quelqu'un d'autre. Une proposition retenue est réécrite et publiée sans nom d'auteur ; les autres sont supprimées au plus tard un an après leur réception.</p>
+
+  <h2>La publicité dans l'app gratuite</h2>
+  <p>L'app gratuite affiche une bannière sous les résultats et propose de courtes vidéos pour débloquer des dilemmes bonus. Elles sont fournies par Google AdMob.</p>
+  <ul>
+    <li>En Suisse, dans l'Espace économique européen et au Royaume-Uni, un formulaire de consentement de Google te demande ton choix avant toute publicité personnalisée. Tu peux le modifier à tout moment dans les Réglages de l'app.</li>
+    <li>Après ton premier vote, iOS te demande si Bascule peut suivre ton activité. Si tu refuses, l'identifiant publicitaire de ton iPhone n'est pas transmis.</li>
+    <li>Pour afficher et mesurer les publicités et lutter contre la fraude, Google peut traiter ton adresse IP, des informations techniques sur ton appareil, ton identifiant publicitaire si tu l'as autorisé, et tes interactions avec les publicités. Détails dans la <a href="https://policies.google.com/technologies/partner-sites?hl=fr">page de Google sur les applications partenaires</a> et sa <a href="https://policies.google.com/privacy?hl=fr">politique de confidentialité</a>.</li>
+  </ul>
+  <p>Base : ton consentement pour la publicité personnalisée, notre intérêt légitime pour la publicité non personnalisée. Avec Bascule+, l'app ne charge plus aucune publicité.</p>
+
+  <h2>Mesure d'usage dans l'app</h2>
+  <p>L'app envoie à TelemetryDeck (Allemagne) quelques signaux d'usage : un vote, un partage, un bonus débloqué, un achat, une ouverture depuis le widget. Ils sont accompagnés d'un identifiant haché sur ton iPhone, sans ton nom ni ton identifiant publicitaire, et servent uniquement à savoir quelles fonctions sont utilisées. Base : notre intérêt légitime à améliorer l'app.</p>
+
+  <h2>Protection contre les votes truqués</h2>
+  <p>L'app demande à Apple (DeviceCheck), par l'intermédiaire de Firebase App Check, une attestation que les votes viennent bien d'une vraie app Bascule. Cette attestation ne contient aucune donnée qui t'identifie.</p>
+
+  <h2>Achats</h2>
+  <p>Bascule+ s'achète sur l'App Store. Apple traite le paiement : nous ne recevons ni ton nom, ni ton identifiant Apple, ni tes données de paiement, seulement la confirmation que l'achat est valide.</p>
+
+  <h2>Ce site</h2>
+  <p>Le site est hébergé par GitHub Pages (GitHub, Inc.), qui enregistre l'adresse IP des visiteurs pour la sécurité du service. La police d'écriture est servie par le site lui-même. Le site ne contacte Firebase que lorsque tu votes ou que tu reviens sur un dilemme déjà voté ; ton navigateur garde alors l'identifiant anonyme décrit plus haut, strictement nécessaire au vote.</p>
+
+  <h2>Transferts hors de Suisse</h2>
+  <p>Google (Irlande et États-Unis), GitHub (États-Unis) et TelemetryDeck (Allemagne) peuvent traiter des données hors de Suisse. Les transferts vers les États-Unis s'appuient sur le Swiss-U.S. Data Privacy Framework ou sur des clauses contractuelles types.</p>
+
+  <h2>Âge</h2>
+  <p>Bascule est destiné aux personnes de 13 ans et plus.</p>
+
+  <h2>Tes droits</h2>
+  <p>Tu peux demander l'accès à tes données, leur rectification ou leur suppression, et t'opposer à un traitement, en écrivant à l'adresse de contact. Comme tout est anonyme, nous n'avons aucun moyen de retrouver tes votes à partir de ton nom ou de ton adresse e-mail ; supprimer l'app ou les données du site suffit à couper le lien. Pour la publicité, tes choix se règlent dans les Réglages de l'app et dans ceux de ton iPhone.</p>
+  <p>Tu peux aussi t'adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT) ou, si tu vis dans l'Union européenne, à l'autorité de protection des données de ton pays.</p>
+
+  <h2>Changements</h2>
+  <p>Si cette politique change, la date en haut de page change aussi. Les changements importants sont signalés dans les notes de version de l'app.</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <nav aria-label="Informations">
+      <ul>
+        <li><a href="../">Dilemmes du jour</a></li>
+        <li><a href="../aide/">Aide</a></li>
+        <li><a href="../conditions/">Conditions</a></li>
+      </ul>
+    </nav>
+    <p>Bascule est un jeu indépendant, imaginé et développé par Arnaud Clavien à Yverdon-les-Bains.</p>
+  </div>
+</footer>
+</body>
+</html>

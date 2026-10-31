@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://basculeapp.com/fr/</loc><changefreq>daily</changefreq></url>
+  <url><loc>https://basculeapp.com/en/</loc><changefreq>daily</changefreq></url>
+  <url><loc>https://basculeapp.com/fr/aide/</loc></url>
+  <url><loc>https://basculeapp.com/en/help/</loc></url>
+  <url><loc>https://basculeapp.com/fr/confidentialite/</loc></url>
+  <url><loc>https://basculeapp.com/en/privacy/</loc></url>
+  <url><loc>https://basculeapp.com/fr/conditions/</loc></url>
+  <url><loc>https://basculeapp.com/en/terms/</loc></url>
+</urlset>

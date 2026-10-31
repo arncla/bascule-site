@@ -1,0 +1,279 @@
+/* Bascule · site · charte visuelle D (docs/02-brief-claude-code-v1-ios.md, section « Charte visuelle D »).
+   Règle de contraste : sur corail et menthe, le texte est toujours en encre #1C2541, y compris en mode sombre. */
+
+@font-face {
+  font-family: "Archivo";
+  src: url("fonts/archivo-latin-wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --coral: #FF6B4A;
+  --mint: #2BB7A3;
+  --ink: #1C2541;
+  --bg: #FFFFFF;
+  --surface: #F2F3F6;
+  --line: #E1E3EA;
+  --text: #1C2541;
+  --text-2: #4A5168;
+  --action-bg: #1C2541;
+  --action-text: #FFFFFF;
+  --focus: #1C2541;
+  /* Pente de la coupe : celle du logo, 220 px de chute sur 1024. */
+  --slope: 0.2148;
+  --wrap: 720px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #10131F;
+    --surface: #1A1F30;
+    --line: #2A3147;
+    --text: #F2F3F6;
+    --text-2: #A9AFC2;
+    --action-bg: #F2F3F6;
+    --action-text: #1C2541;
+    --focus: #F2F3F6;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 6px; }
+
+/* viewport-fit=cover : le bandeau va jusqu'aux bords, le texte reste hors de l'encoche. */
+.wrap {
+  width: 100%; max-width: calc(var(--wrap) + env(safe-area-inset-left) + env(safe-area-inset-right)); margin: 0 auto;
+  padding: 0 max(20px, env(safe-area-inset-right)) 0 max(20px, env(safe-area-inset-left));
+}
+
+.skip {
+  position: absolute; left: 12px; top: -60px; z-index: 10;
+  background: var(--ink); color: #FFFFFF; padding: 10px 14px; border-radius: 10px; font-weight: 700;
+}
+.skip:focus { top: 12px; }
+
+/* Bandeau : menthe en fond, corail coupé en diagonale au dessus, à la pente du logo quelle que soit la largeur. */
+.band {
+  --w: min(100vw, 1440px);
+  /* Pente exacte sur mobile, plafonnée sur grand écran pour que le bandeau ne mange pas la page. */
+  --drop: min(var(--w) * var(--slope), 150px);
+  position: relative;
+  background: var(--mint);
+  color: var(--ink);
+  padding-bottom: calc(var(--drop) * 0.6 + 44px);
+  isolation: isolate;
+}
+.band::before {
+  content: "";
+  position: absolute; inset: 0; z-index: -1;
+  background: var(--coral);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--drop) - 40px), 0 calc(100% - 40px));
+}
+
+.topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding-top: max(20px, env(safe-area-inset-top));
+}
+
+.brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  text-decoration: none; font-weight: 800; font-size: 1.625rem; letter-spacing: -0.02em;
+}
+.brand svg { width: 30px; height: 36px; flex-shrink: 0; }
+
+.lang {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 44px; min-height: 44px; padding: 0 14px;
+  background: #FFFFFF; color: var(--ink); border-radius: 999px;
+  font-weight: 700; font-size: 0.9375rem; text-decoration: none;
+}
+
+.intro { padding-top: 36px; }
+.intro .date { margin: 0; font-size: 1rem; font-weight: 600; }
+.intro h1 {
+  margin: 2px 0 0; font-size: clamp(1.75rem, 1.2rem + 2.4vw, 2.75rem); line-height: 1.08;
+  font-weight: 800; letter-spacing: -0.02em; max-width: 16ch;
+}
+.intro .lede { margin: 10px 0 0; max-width: 34ch; font-weight: 500; }
+
+/* Dilemmes */
+main.wrap { padding-top: 28px; padding-bottom: 48px; }
+
+.dilemma {
+  border: 1px solid var(--line); border-radius: 20px;
+  padding: 20px; margin-bottom: 16px;
+}
+
+.meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.kind {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-2);
+}
+.state { font-size: 0.8125rem; font-weight: 600; color: var(--text-2); }
+
+/* Marqueur de nature : mini coupe diagonale. */
+.cut {
+  position: relative; display: inline-block; width: 12px; height: 12px; border-radius: 3px;
+  background: var(--mint); overflow: hidden; flex-shrink: 0;
+}
+.cut::before {
+  content: ""; position: absolute; inset: 0; background: var(--coral);
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 75%);
+}
+
+.dilemma h2 {
+  margin: 12px 0 0; font-size: clamp(1.375rem, 1.15rem + 1vw, 1.75rem); line-height: 1.15;
+  font-weight: 800; letter-spacing: -0.015em;
+}
+.scenario { margin: 10px 0 0; max-width: 62ch; }
+.ask { margin: 16px 0 0; font-weight: 800; font-size: 1.125rem; }
+
+.options { display: grid; gap: 12px; margin-top: 12px; }
+@media (min-width: 620px) { .options { grid-template-columns: 1fr 1fr; } }
+
+.option {
+  display: flex; align-items: center; gap: 14px; width: 100%; min-height: 76px; padding: 16px;
+  border: 0; border-radius: 22px; text-align: left; cursor: pointer;
+  font: inherit; font-size: 1.0625rem; font-weight: 700; line-height: 1.25; color: var(--ink);
+  transition: transform 120ms ease, filter 120ms ease;
+}
+.option--a { background: var(--coral); }
+.option--b { background: var(--mint); }
+.option:hover { filter: brightness(1.04); }
+.option:active { transform: scale(0.985); }
+.option[disabled] { cursor: progress; filter: saturate(0.6); }
+.option[aria-pressed="true"] { outline: 3px solid var(--text); outline-offset: 3px; }
+
+.badge {
+  display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--ink); color: #FFFFFF; font-weight: 800; font-size: 1rem;
+}
+
+.hint { margin: 12px 0 0; font-size: 0.875rem; color: var(--text-2); }
+.notice { margin: 12px 0 0; font-size: 0.9375rem; font-weight: 600; }
+.notice:empty { display: none; }
+
+/* Résultat : bloc menthe dont la part corail suit le pourcentage du camp A, coupe à la même pente. */
+.result { margin-top: 16px; }
+.result[hidden] { display: none; }
+.result:focus { outline: none; }
+
+.split {
+  --a: 50;
+  --skew: 16px;
+  position: relative; height: 150px; border-radius: 24px; overflow: hidden;
+  background: var(--mint); color: var(--ink);
+}
+.split::before {
+  content: ""; position: absolute; inset: 0; background: var(--coral);
+  clip-path: polygon(0 0, calc(var(--a) * 1% + var(--skew)) 0, calc(var(--a) * 1% - var(--skew)) 100%, 0 100%);
+  transition: clip-path 700ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.split[data-edge="none"]::before { clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); }
+.split[data-edge="all"]::before { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+.split .pct { position: absolute; display: flex; align-items: baseline; gap: 8px; }
+.split .pct--a { left: 18px; bottom: 16px; }
+.split .pct--b { right: 18px; top: 16px; }
+.split .num { font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1; font-variant-numeric: tabular-nums; }
+.split .lbl { font-size: 1rem; font-weight: 800; }
+
+.legend { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.legend li { display: flex; align-items: baseline; gap: 8px; font-size: 0.9375rem; font-weight: 600; }
+.legend .dot { position: relative; top: 1px; }
+
+.verdict { margin: 14px 0 0; }
+.verdict strong { display: block; font-size: 1.25rem; font-weight: 800; }
+.verdict span { color: var(--text-2); font-weight: 500; }
+
+.args { display: grid; gap: 10px; margin-top: 14px; }
+@media (min-width: 620px) { .args { grid-template-columns: 1fr 1fr; } }
+.side { border: 1px solid var(--line); border-radius: 18px; padding: 14px; }
+.side h3 {
+  display: flex; align-items: center; gap: 8px; margin: 0;
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.dot--a { background: var(--coral); }
+.dot--b { background: var(--mint); }
+.side ul { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.side li { font-size: 0.9375rem; line-height: 1.45; }
+
+.philo { margin: 12px 0 0; font-size: 0.875rem; color: var(--text-2); max-width: 62ch; }
+.philo strong { color: var(--text); font-weight: 700; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+
+.button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 50px; padding: 0 22px; border: 0; border-radius: 999px; cursor: pointer;
+  font: inherit; font-size: 0.9375rem; font-weight: 700; text-decoration: none;
+  background: var(--action-bg); color: var(--action-text);
+}
+.button--quiet { background: var(--surface); color: var(--text); }
+.button[aria-disabled="true"] { cursor: default; }
+
+/* Bas de page du jour */
+.next { margin: 8px 0 0; color: var(--text-2); font-size: 0.9375rem; }
+
+.app {
+  margin-top: 40px; padding: 24px 20px; border-radius: 24px; background: var(--surface);
+}
+.app h2 { margin: 0; font-size: 1.5rem; line-height: 1.15; font-weight: 800; letter-spacing: -0.015em; }
+.app p { margin: 10px 0 0; max-width: 58ch; }
+.app .small { font-size: 0.875rem; color: var(--text-2); }
+
+.empty { border: 1px dashed var(--line); border-radius: 20px; padding: 24px 20px; }
+.empty p { margin: 0; }
+
+/* Pages de texte (confidentialité, conditions, aide) */
+.prose { max-width: 68ch; }
+.prose h2 { margin: 36px 0 0; font-size: 1.3125rem; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em; }
+.prose h3 { margin: 24px 0 0; font-size: 1.0625rem; font-weight: 700; }
+.prose p, .prose ul, .prose table { margin: 10px 0 0; }
+.prose ul { padding-left: 1.2em; }
+.prose li + li { margin-top: 6px; }
+.prose .updated { margin-top: 0; color: var(--text-2); font-size: 0.9375rem; }
+.prose table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.prose th, .prose td { text-align: left; vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); }
+.prose th { font-weight: 700; }
+.table-scroll { overflow-x: auto; }
+.prose details { border-bottom: 1px solid var(--line); padding: 14px 0; }
+.prose details:first-of-type { border-top: 1px solid var(--line); margin-top: 16px; }
+.prose summary { cursor: pointer; font-weight: 700; list-style-position: outside; }
+.prose details p { margin-top: 8px; }
+
+/* Pied de page */
+.foot { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 0.9375rem; color: var(--text-2); }
+.foot nav ul { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 0; padding: 0; list-style: none; }
+.foot nav a { display: inline-block; padding: 10px 0; color: var(--text); font-weight: 600; }
+.foot p { margin: 8px 0 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}

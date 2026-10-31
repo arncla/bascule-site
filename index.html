@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bascule · Dilemme du jour · Daily Dilemma</title>
+<meta name="description" content="Trois dilemmes par jour, les mêmes pour tout le monde. Three dilemmas a day, the same for everyone.">
+<link rel="canonical" href="https://basculeapp.com/">
+<link rel="alternate" hreflang="fr" href="https://basculeapp.com/fr/">
+<link rel="alternate" hreflang="en" href="https://basculeapp.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://basculeapp.com/">
+<meta name="theme-color" content="#FF6B4A">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bascule">
+<meta property="og:title" content="Bascule · Dilemme du jour">
+<meta property="og:description" content="Trois dilemmes par jour, les mêmes pour tout le monde. Choisis ton camp.">
+<meta property="og:url" content="https://basculeapp.com/">
+<meta property="og:image" content="https://basculeapp.com/assets/og-fr.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script>
+  // Lien partagé par l'app : on envoie vers la langue du navigateur, français par défaut pour les francophones.
+  (function () {
+    var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    var fr = String(langs[0] || "").toLowerCase().indexOf("fr") === 0;
+    location.replace((fr ? "fr/" : "en/") + location.search + location.hash);
+  })();
+</script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="band band--short">
+  <div class="wrap topbar">
+    <span class="brand">
+      <svg viewBox="250 190 540 650" aria-hidden="true"><g transform="translate(16 0) rotate(12 512 512)" fill="#FFFFFF"><rect x="300" y="232" width="104" height="560"/><path d="M434 232H560A136 136 0 0 1 560 504H434Z"/><path d="M434 520H574A136 136 0 0 1 574 792H434Z"/></g></svg>
+      <span>Bascule</span>
+    </span>
+  </div>
+</header>
+<main class="wrap">
+  <p><a href="fr/" hreflang="fr">Français : les dilemmes du jour</a></p>
+  <p lang="en"><a href="en/" hreflang="en">English: today's dilemmas</a></p>
+</main>
+</body>
+</html>
