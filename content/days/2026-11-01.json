@@ -71,16 +71,16 @@
    "id": "l-0201",
    "kind": "leger",
    "fr": {
-    "title": "Voler ou disparaître",
-    "scenario": "Un pouvoir, un seul, pour le reste de ta vie : voler à la vitesse d'un vélo, ou devenir invisible dix minutes par jour.",
-    "a": "Voler à la vitesse d'un vélo",
-    "b": "Invisible dix minutes par jour"
+    "title": "L'historique",
+    "scenario": "Ton historique internet des dix dernières années est lu à voix haute à ton mariage, ou envoyé à ta mère chaque dimanche pendant un an.",
+    "a": "Lu à voix haute à ton mariage",
+    "b": "Envoyé à ta mère chaque dimanche"
    },
    "en": {
-    "title": "Fly or vanish",
-    "scenario": "One power, just one, for the rest of your life: fly at the speed of a bicycle, or turn invisible for ten minutes a day.",
-    "a": "Fly at bicycle speed",
-    "b": "Invisible ten minutes a day"
+    "title": "The browsing history",
+    "scenario": "Your internet history from the last ten years is read aloud at your wedding, or emailed to your mother every Sunday for a year.",
+    "a": "Read aloud at your wedding",
+    "b": "Emailed to your mother every Sunday"
    }
   }
  ]
