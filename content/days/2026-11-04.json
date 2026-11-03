@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-04",
+ "dilemmas": [
+  {
+   "id": "m-0204",
+   "kind": "moral",
+   "fr": {
+    "title": "La caisse du club",
+    "scenario": "Tu es trésorier du petit club de foot du village. En vérifiant les comptes, tu vois que le président, ton ami depuis vingt ans, a viré cinq cents francs du club sur son compte en mars, puis les a remis en avril, sans un mot à personne. Les comptes sont justes aujourd'hui. L'assemblée générale est dans dix jours.",
+    "a": "Tu soulèves le point devant le comité",
+    "b": "Tu lui en parles seul à seul et tu en restes là",
+    "argsA": [
+     "L'argent du club n'est pas une réserve personnelle ; un comité qui l'ignore une fois l'ignorera toujours.",
+     "Ton rôle de trésorier existe précisément pour ce moment ; le couvrir, c'est trahir ceux qui t'ont élu."
+    ],
+    "argsB": [
+     "Tout a été remboursé ; une mise au point en privé corrige le geste sans détruire vingt ans d'amitié ni la réputation d'un bénévole.",
+     "Un scandale pour cinq cents francs rendus peut faire fuir les bénévoles dont le club dépend."
+    ],
+    "philo": "Le contractualisme rappelle ce que les membres attendent d'un trésorier, l'éthique du care protège l'ami et le club, la déontologie refuse l'exception même réparée."
+   },
+   "en": {
+    "title": "The club's cash",
+    "scenario": "You are treasurer of the village football club. Checking the accounts, you see that the president, your friend of twenty years, transferred five hundred from the club to his own account in March, then put it back in April, without a word to anyone. The books balance today. The general meeting is in ten days.",
+    "a": "You raise it in front of the committee",
+    "b": "You talk to him alone and leave it there",
+    "argsA": [
+     "The club's money is not a personal reserve; a committee that ignores it once will ignore it forever.",
+     "Your role as treasurer exists precisely for this moment; covering it betrays the people who elected you."
+    ],
+    "argsB": [
+     "Everything was repaid; a private word fixes the behaviour without destroying twenty years of friendship or a volunteer's reputation.",
+     "A scandal over five hundred that came back can scare off the volunteers the club depends on."
+    ],
+    "philo": "Contractualism recalls what members expect from a treasurer, care ethics protects both friend and club, deontology refuses the exception even once repaired."
+   }
+  },
+  {
+   "id": "v-0204",
+   "kind": "vie",
+   "fr": {
+    "title": "Les codes du téléphone",
+    "scenario": "Ton partenaire propose que vous partagiez vos codes de téléphone : « Pas par méfiance, mais parce qu'entre nous il ne devrait rien y avoir de caché. » Tu n'as rien à cacher, mais l'idée te met mal à l'aise.",
+    "a": "Tu acceptes de partager tes codes",
+    "b": "Tu gardes ton téléphone pour toi",
+    "argsA": [
+     "Si tu n'as rien à cacher, refuser crée justement le doute que tu veux éviter.",
+     "Partager ses codes, c'est aussi pratique : une urgence, un appareil perdu, un message à lire."
+    ],
+    "argsB": [
+     "La confiance, c'est justement de ne pas avoir besoin de vérifier.",
+     "Chacun garde un jardin secret, même vide ; c'est une question d'espace, pas de secrets."
+    ]
+   },
+   "en": {
+    "title": "Phone passcodes",
+    "scenario": "Your partner suggests you share your phone passcodes: “Not out of distrust, but because there should be nothing hidden between us.” You have nothing to hide, but the idea makes you uneasy.",
+    "a": "You agree to share passcodes",
+    "b": "You keep your phone to yourself",
+    "argsA": [
+     "If you have nothing to hide, refusing creates exactly the doubt you want to avoid.",
+     "Sharing codes is practical too: an emergency, a lost phone, a message to read."
+    ],
+    "argsB": [
+     "Trust means precisely not needing to check.",
+     "Everyone keeps a private corner, even an empty one; it is about space, not secrets."
+    ]
+   }
+  },
+  {
+   "id": "l-0204",
+   "kind": "leger",
+   "fr": {
+    "title": "Les oreilles en croissant",
+    "scenario": "Tes oreilles deviennent deux croissants frais, qui repoussent chaque matin. Ou tes pieds deviennent des rollers, impossibles à enlever, douche comprise.",
+    "a": "Les oreilles en croissant",
+    "b": "Les pieds en rollers"
+   },
+   "en": {
+    "title": "Croissant ears",
+    "scenario": "Your ears turn into two fresh croissants that grow back every morning. Or your feet turn into roller skates you can never take off, showers included.",
+    "a": "Croissant ears",
+    "b": "Roller-skate feet"
+   }
+  }
+ ]
+}
