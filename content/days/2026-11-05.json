@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-05",
+ "dilemmas": [
+  {
+   "id": "m-0205",
+   "kind": "moral",
+   "fr": {
+    "title": "La montre du grand-père",
+    "scenario": "Ton grand-père de quatre-vingt-cinq ans vit seul et s'est perdu deux fois en rentrant du village. Le médecin conseille une montre qui vous indiquerait où il est. Il refuse net : il n'a jamais été surveillé et ne commencera pas. Tu as repéré un modèle discret qu'il prendrait pour une montre ordinaire.",
+    "a": "Tu lui offres la montre sans lui dire ce qu'elle fait",
+    "b": "Tu respectes son refus et tu cherches autre chose",
+    "argsA": [
+     "Une nuit dehors en hiver peut lui coûter la vie ; sa sécurité vaut un petit mensonge.",
+     "Il garde son indépendance et sa fierté, et vous gardez le sommeil : tout le monde y gagne."
+    ],
+    "argsB": [
+     "Le tromper, c'est décider à sa place qu'il n'est plus une personne entière.",
+     "Le jour où il découvre la montre, il perd la confiance dans ceux qui restent à ses côtés."
+    ],
+    "philo": "La déontologie place l'autonomie et la vérité au-dessus de la sécurité, le conséquentialisme fait le calcul inverse, l'éthique du care cherche la relation qui tient."
+   },
+   "en": {
+    "title": "Grandfather's watch",
+    "scenario": "Your eighty-five-year-old grandfather lives alone and has got lost twice coming back from the village. The doctor suggests a watch that would show you where he is. He flatly refuses: he has never been watched and will not start now. You have found a discreet model he would take for an ordinary watch.",
+    "a": "You give him the watch without saying what it does",
+    "b": "You respect his refusal and look for something else",
+    "argsA": [
+     "A winter night outdoors could cost him his life; his safety is worth a small lie.",
+     "He keeps his independence and his pride, and you keep your sleep: everyone wins."
+    ],
+    "argsB": [
+     "Deceiving him means deciding for him that he is no longer a whole person.",
+     "The day he discovers the watch, he loses trust in the people still at his side."
+    ],
+    "philo": "Deontology puts autonomy and truth above safety, consequentialism runs the opposite calculation, and care ethics looks for the relationship that holds."
+   }
+  },
+  {
+   "id": "v-0205",
+   "kind": "vie",
+   "fr": {
+    "title": "Le compte commun",
+    "scenario": "Vous vivez ensemble depuis trois ans. Ton partenaire gagne nettement plus que toi et propose de tout mettre sur un compte commun, salaires compris. Aujourd'hui, chacun paie la moitié du loyer et garde le reste pour lui.",
+    "a": "Vous passez au compte commun",
+    "b": "Vous gardez des comptes séparés",
+    "argsA": [
+     "Un couple qui vit ensemble partage tout le reste ; l'argent n'a pas à faire exception.",
+     "Payer moitié-moitié avec des salaires inégaux, c'est faire peser le loyer surtout sur toi."
+    ],
+    "argsB": [
+     "Garder ton propre compte, c'est garder ton autonomie, quoi qu'il arrive au couple.",
+     "Des comptes séparés évitent de justifier chaque dépense, et beaucoup de disputes."
+    ]
+   },
+   "en": {
+    "title": "The joint account",
+    "scenario": "You have lived together for three years. Your partner earns far more than you and suggests putting everything into a joint account, salaries included. Today, each of you pays half the rent and keeps the rest.",
+    "a": "You switch to a joint account",
+    "b": "You keep separate accounts",
+    "argsA": [
+     "A couple who share a home share everything else; money need not be the exception.",
+     "Splitting fifty-fifty on unequal salaries means the rent weighs mostly on you."
+    ],
+    "argsB": [
+     "Keeping your own account keeps your independence, whatever happens to the couple.",
+     "Separate accounts spare you justifying every purchase, and a lot of arguments."
+    ]
+   }
+  },
+  {
+   "id": "l-0205",
+   "kind": "leger",
+   "fr": {
+    "title": "La poignée de main",
+    "scenario": "Chaque poignée de main dure trente secondes, en silence, les yeux dans les yeux. Ou chaque au revoir se termine par un câlin de dix secondes, patron compris.",
+    "a": "Trente secondes de poignée de main",
+    "b": "Dix secondes de câlin à chaque au revoir"
+   },
+   "en": {
+    "title": "The handshake",
+    "scenario": "Every handshake lasts thirty seconds, in silence, eye to eye. Or every goodbye ends with a ten-second hug, boss included.",
+    "a": "Thirty-second handshakes",
+    "b": "Ten-second goodbye hugs"
+   }
+  }
+ ]
+}
