@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-06",
+ "dilemmas": [
+  {
+   "id": "m-0207",
+   "kind": "moral",
+   "fr": {
+    "title": "Le salaire du voisin de bureau",
+    "scenario": "Par erreur, les ressources humaines t'ont envoyé le tableau des salaires de ton service. Un collègue qui fait exactement ton travail, arrivé après toi, gagne quinze pour cent de plus. Ton contrat te demande de garder les salaires confidentiels. Trois collègues te demandent ce que tu as vu, parce que la rumeur a déjà couru.",
+    "a": "Tu dis ce que tu as vu à tes collègues",
+    "b": "Tu gardes les chiffres pour toi",
+    "argsA": [
+     "Le secret sur les salaires ne protège que ceux qui paient mal ; la transparence est la seule arme des employés.",
+     "Tes collègues ont le droit de négocier avec des faits, et tu les as entre les mains par hasard."
+    ],
+    "argsB": [
+     "Tu as signé une clause, et la violer te rend licenciable pour une information que tu n'étais pas censée avoir.",
+     "Divulguer les chiffres déclenche une guerre entre collègues dont tu ne contrôles rien."
+    ],
+    "philo": "Le contractualisme oppose la clause signée au contrat tacite entre collègues, le conséquentialisme pèse la justice obtenue contre les dégâts, la déontologie interroge la promesse."
+   },
+   "en": {
+    "title": "The salary next door",
+    "scenario": "By mistake, human resources sent you the salary table for your whole department. A colleague who does exactly your job, hired two years after you, earns fifteen percent more. Your contract requires you to keep salaries confidential. Three colleagues ask what you saw, because the rumour has already spread through the office.",
+    "a": "You tell your colleagues what you saw",
+    "b": "You keep the figures to yourself",
+    "argsA": [
+     "Salary secrecy only protects those who pay badly; transparency is the employees' only weapon.",
+     "Your colleagues have the right to negotiate with facts, and you hold them by chance."
+    ],
+    "argsB": [
+     "You signed a clause, and breaking it makes you dismissable over information you were never meant to have.",
+     "Leaking the figures starts a war between colleagues that you cannot control."
+    ],
+    "philo": "Contractualism sets the signed clause against the tacit contract between colleagues, consequentialism weighs the justice gained against the damage, deontology questions the promise."
+   }
+  },
+  {
+   "id": "v-0206",
+   "kind": "vie",
+   "fr": {
+    "title": "Acheter ou louer",
+    "scenario": "Tu as assez économisé pour l'apport d'un petit appartement. Le crédit te coûterait chaque mois un peu plus que ton loyer actuel, pendant vingt-cinq ans. Tu aimes ta ville, mais tu ne sais pas où ton travail te mènera.",
+    "a": "Tu achètes l'appartement",
+    "b": "Tu restes locataire et gardes ton épargne",
+    "argsA": [
+     "Chaque mensualité te rend un peu plus propriétaire, alors qu'un loyer ne te laisse rien.",
+     "Un logement à toi, c'est une sécurité pour plus tard et la liberté de l'aménager."
+    ],
+    "argsB": [
+     "Locataire, tu peux partir en un mois si ta vie change ; propriétaire, tu es attaché.",
+     "Une épargne disponible te protège des coups durs mieux que des murs."
+    ]
+   },
+   "en": {
+    "title": "Buying or renting",
+    "scenario": "You have saved enough for the deposit on a small flat. The mortgage would cost a little more each month than your current rent, for twenty-five years. You love your city, but you do not know where work will take you.",
+    "a": "You buy the flat",
+    "b": "You keep renting and keep your savings",
+    "argsA": [
+     "Every payment makes you a little more of an owner, while rent leaves you with nothing.",
+     "A home of your own is security for later and the freedom to make it yours."
+    ],
+    "argsB": [
+     "As a tenant you can leave within a month if life changes; as an owner you are tied.",
+     "Savings you can reach protect you from hard times better than walls do."
+    ]
+   }
+  },
+  {
+   "id": "l-0206",
+   "kind": "leger",
+   "fr": {
+    "title": "Le colocataire",
+    "scenario": "Un an avec un colocataire qui finit tes restes mais fait toute la vaisselle, ou un qui ne touche jamais à ton frigo mais chante sous la douche à l'aube.",
+    "a": "Le voleur de restes qui fait la vaisselle",
+    "b": "Le chanteur de l'aube"
+   },
+   "en": {
+    "title": "The flatmate",
+    "scenario": "A year with a flatmate who finishes your leftovers but does all the dishes, or one who never touches your fridge but sings in the shower at dawn.",
+    "a": "The leftover thief who does the dishes",
+    "b": "The dawn shower singer"
+   }
+  }
+ ]
+}
