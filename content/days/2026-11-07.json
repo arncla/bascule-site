@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-07",
+ "dilemmas": [
+  {
+   "id": "m-0206",
+   "kind": "moral",
+   "fr": {
+    "title": "Le discours du témoin",
+    "scenario": "Tu es témoin au mariage de ton meilleur ami samedi, et tu dois faire un discours devant cent personnes. Tu as essayé trois soirs de suite : rien de bon ne sort. Hier, par curiosité, tu as donné quelques souvenirs à une intelligence artificielle, et le texte qu'elle a produit est drôle, touchant, meilleur que tout ce que tu as écrit. Personne ne saurait jamais d'où il vient.",
+    "a": "Tu lis le texte de l'IA comme s'il était de toi",
+    "b": "Tu lis le tien, même moins bon",
+    "argsA": [
+     "Les souvenirs sont les tiens ; la machine n'a fait que les mettre en ordre, comme l'aurait fait un ami doué.",
+     "Ce jour est le sien, pas le tien : il mérite le meilleur discours, pas le plus méritant."
+    ],
+    "argsB": [
+     "Un discours de témoin vaut par celui qui l'a cherché, pas par ses tournures ; les maladresses font partie du cadeau.",
+     "Si quelqu'un devine, et quelqu'un devine souvent, c'est toute ta sincérité du jour qui tombe."
+    ],
+    "philo": "Éthique des vertus : l'authenticité du geste. Conséquentialisme : seul compte l'effet sur les mariés et la salle."
+   },
+   "en": {
+    "title": "The best man's speech",
+    "scenario": "You are best man at your best friend's wedding on Saturday, and you have to give a speech in front of a hundred people. You have tried three evenings in a row: nothing good comes out. Yesterday, out of curiosity, you fed a few memories to an AI, and the text it produced is funny, moving, better than anything you wrote. No one would ever know where it came from.",
+    "a": "You read the AI's text as your own",
+    "b": "You read yours, even if it is weaker",
+    "argsA": [
+     "The memories are yours; the machine only put them in order, as a gifted friend would have.",
+     "The day is his, not yours: he deserves the best speech, not the most deserving one."
+    ],
+    "argsB": [
+     "A best man's speech is worth the search behind it, not its phrasing; the clumsy bits are part of the gift.",
+     "If someone guesses, and someone often does, your whole sincerity that day collapses."
+    ],
+    "philo": "Virtue ethics: the authenticity of the gesture. Consequentialism: only the effect on the couple and the room matters."
+   }
+  },
+  {
+   "id": "v-0207",
+   "kind": "vie",
+   "fr": {
+    "title": "Le chien et les longues journées",
+    "scenario": "Tu rêves d'un chien depuis l'enfance. Un refuge te propose un jeune chien adorable. Tu travailles neuf heures par jour, une voisine pourrait le promener à midi, et tes week-ends sont souvent pris par des sorties.",
+    "a": "Tu l'adoptes maintenant",
+    "b": "Tu attends d'avoir plus de temps",
+    "argsA": [
+     "Un chien de refuge attend une famille, et une promenade à midi change déjà tout.",
+     "Le moment parfait n'arrive jamais ; tu adapteras tes week-ends, comme tout le monde."
+    ],
+    "argsB": [
+     "Un chien seul neuf heures par jour s'ennuie, et c'est lui qui paie ton envie.",
+     "Attendre un an ou deux, c'est l'adopter quand tu pourras vraiment t'en occuper."
+    ]
+   },
+   "en": {
+    "title": "The dog and the long days",
+    "scenario": "You have dreamed of having a dog since childhood. A shelter offers you a lovely young dog. You work nine-hour days, a neighbour could walk it at lunchtime, and your weekends are often taken by outings.",
+    "a": "You adopt it now",
+    "b": "You wait until you have more time",
+    "argsA": [
+     "A shelter dog is waiting for a home, and a lunchtime walk already changes everything.",
+     "The perfect moment never comes; you will adjust your weekends like everyone does."
+    ],
+    "argsB": [
+     "A dog alone for nine hours gets bored, and it pays the price of your wish.",
+     "Waiting a year or two means adopting it when you can really look after it."
+    ]
+   }
+  },
+  {
+   "id": "l-0207",
+   "kind": "leger",
+   "fr": {
+    "title": "Le profil",
+    "scenario": "Tout le monde peut voir combien de fois tu as regardé ton propre profil, ou chacun peut voir combien de fois tu as regardé le sien.",
+    "a": "Tes visites sur ton propre profil, publiques",
+    "b": "Chacun voit tes visites sur son profil"
+   },
+   "en": {
+    "title": "The profile",
+    "scenario": "Everyone can see how many times you have looked at your own profile, or each person can see how many times you have looked at theirs.",
+    "a": "Your visits to your own profile, public",
+    "b": "Each person sees your visits to theirs"
+   }
+  }
+ ]
+}
