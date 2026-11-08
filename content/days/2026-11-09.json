@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-09",
+ "dilemmas": [
+  {
+   "id": "m-0209",
+   "kind": "moral",
+   "fr": {
+    "title": "La maison promise",
+    "scenario": "Avant de mourir, ta grand-mère t'a fait promettre de ne jamais vendre la maison de famille, où quatre générations ont vécu. Tu l'as promis. Trois ans plus tard, la toiture et le chauffage t'ont coûté toutes tes économies, et l'entretien avale mille cinq cents francs par mois que tu n'as plus. Un voisin propose un bon prix.",
+    "a": "Tu gardes la maison et tu te serres la ceinture",
+    "b": "Tu vends",
+    "argsA": [
+     "Une promesse faite à une mourante n'a pas de clause de sortie ; elle vaut précisément quand elle coûte.",
+     "Cette maison est la mémoire de ta famille ; un compte en banque ne se transmet pas."
+    ],
+    "argsB": [
+     "Ta grand-mère voulait te protéger, pas te ruiner ; elle n'imaginait pas que la promesse deviendrait une dette.",
+     "Une famille, ce sont des gens, pas des murs ; t'endetter pour des pierres trahit l'esprit de sa demande."
+    ],
+    "philo": "La déontologie tient la promesse quoi qu'il en coûte, le conséquentialisme regarde ce que la défunte aurait voulu obtenir, l'éthique des vertus cherche la fidélité juste."
+   },
+   "en": {
+    "title": "The promised house",
+    "scenario": "Before she died, your grandmother made you promise never to sell the family house, where four generations have lived. You promised. Three years later, the roof and the heating have eaten all your savings, and upkeep swallows fifteen hundred a month you no longer have. A neighbour is offering a good price.",
+    "a": "You keep the house and tighten your belt",
+    "b": "You sell",
+    "argsA": [
+     "A promise made to a dying woman has no exit clause; it counts precisely when it costs.",
+     "This house is your family's memory; a bank account cannot be handed down."
+    ],
+    "argsB": [
+     "Your grandmother wanted to protect you, not ruin you; she never imagined the promise would become a debt.",
+     "A family is people, not walls; going into debt for stones betrays the spirit of her request."
+    ],
+    "philo": "Deontology keeps the promise whatever it costs, consequentialism looks at what the deceased wanted to achieve, virtue ethics seeks the right kind of loyalty."
+   }
+  },
+  {
+   "id": "v-0209",
+   "kind": "vie",
+   "fr": {
+    "title": "Quatre jours ou cinq",
+    "scenario": "Ton employeur te laisse choisir pour l'an prochain : quatre jours de travail par semaine payés quatre-vingts pour cent, ou cinq jours payés plein. Ton loyer passe dans les deux cas, mais le vingt pour cent de différence, c'est ton voyage de l'été ou une épargne qui avance.",
+    "a": "Quatre jours, payé quatre-vingts pour cent",
+    "b": "Cinq jours, payé plein",
+    "argsA": [
+     "Cinquante-deux vendredis par an, c'est presque deux mois de vie en plus.",
+     "Le temps ne se rachète pas, l'argent oui."
+    ],
+    "argsB": [
+     "Vingt pour cent de moins pendant des années, c'est un appartement ou une retraite qui s'éloigne.",
+     "Un vendredi libre, on finit par le remplir de courses et de lessive."
+    ]
+   },
+   "en": {
+    "title": "Four days or five",
+    "scenario": "Your employer lets you choose for next year: four working days a week paid eighty percent, or five days at full pay. Your rent is fine either way, but the twenty percent difference is your summer trip or savings that actually grow.",
+    "a": "Four days at eighty percent",
+    "b": "Five days at full pay",
+    "argsA": [
+     "Fifty-two Fridays a year is almost two extra months of life.",
+     "Time cannot be bought back; money can."
+    ],
+    "argsB": [
+     "Twenty percent less for years is a flat or a retirement slipping away.",
+     "A free Friday ends up filled with shopping and laundry."
+    ]
+   }
+  },
+  {
+   "id": "l-0209",
+   "kind": "leger",
+   "fr": {
+    "title": "La sonnerie",
+    "scenario": "Ton téléphone sonne à plein volume dès que le silence s'installe autour de toi. Ou il sonne normalement, mais la sonnerie est ta propre voix qui hurle ton prénom.",
+    "a": "Il sonne dans chaque silence",
+    "b": "Ta propre voix qui hurle ton prénom"
+   },
+   "en": {
+    "title": "The ringtone",
+    "scenario": "Your phone rings at full volume whenever silence falls around you. Or it rings normally, but the ringtone is your own voice screaming your name.",
+    "a": "It rings in every silence",
+    "b": "Your own voice screaming your name"
+   }
+  }
+ ]
+}
