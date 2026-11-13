@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-14",
+ "dilemmas": [
+  {
+   "id": "m-0213",
+   "kind": "moral",
+   "fr": {
+    "title": "Le virement en trop",
+    "scenario": "Ton employeur, une grande entreprise, t'a versé huit cents francs de trop ce mois-ci, une erreur de prime. Personne ne t'a écrit. Tu sais que le service comptable met parfois des mois à repérer ce genre d'écart, et parfois ne le repère jamais. Ton compte est à découvert depuis trois semaines.",
+    "a": "Tu signales l'erreur dès lundi",
+    "b": "Tu attends qu'ils s'en aperçoivent",
+    "argsA": [
+     "Cet argent n'est pas le tien, et le garder revient à parier que personne ne regarde.",
+     "Signaler une erreur en ta faveur te rend crédible le jour où tu devras signaler une erreur en ta défaveur."
+    ],
+    "argsB": [
+     "Une grande entreprise récupère toujours ce qu'elle réclame ; tu rendras quand on te le demandera.",
+     "Elle t'a sous-payé pendant des années en heures supplémentaires non comptées ; appelle ça un acompte."
+    ],
+    "philo": "La déontologie ne connaît pas l'erreur de l'autre comme excuse, le conséquentialisme compare les torts, le contractualisme demande ce que chacun doit à l'autre."
+   },
+   "en": {
+    "title": "The overpayment",
+    "scenario": "Your employer, a large company, paid you eight hundred too much this month, a bonus error. Nobody has written to you about it. You know the accounts department sometimes takes months to spot that kind of gap, and sometimes never does. Your account has been overdrawn for three weeks now.",
+    "a": "You report the error on Monday",
+    "b": "You wait for them to notice",
+    "argsA": [
+     "This money is not yours, and keeping it means betting that nobody is looking.",
+     "Reporting an error in your favour makes you credible the day you have to report one against you."
+    ],
+    "argsB": [
+     "A large company always recovers what it claims; you will give it back when they ask.",
+     "It underpaid you for years in uncounted overtime; call it a down payment."
+    ],
+    "philo": "Deontology does not accept the other party's mistake as an excuse, consequentialism compares the wrongs, contractualism asks what each side owes the other."
+   }
+  },
+  {
+   "id": "v-0214",
+   "kind": "vie",
+   "fr": {
+    "title": "L'épargne et la bourse",
+    "scenario": "Tu as de côté l'équivalent d'un an de salaire, sur un compte qui ne rapporte presque rien. Un collègue te conseille d'en placer la moitié en bourse, sur le long terme. Tu n'y connais pas grand-chose et les chutes te font peur.",
+    "a": "Tu places la moitié en bourse",
+    "b": "Tu laisses tout sur ton compte",
+    "argsA": [
+     "Sur le long terme, un placement diversifié fait en général mieux qu'un compte qui dort.",
+     "Ne rien faire, c'est perdre chaque année un peu de valeur à cause de l'inflation."
+    ],
+    "argsB": [
+     "De l'argent qui peut baisser de trente pour cent, ce n'est plus une épargne de sécurité.",
+     "Si les chutes t'empêchent de dormir, la tranquillité vaut plus que quelques pour cent."
+    ]
+   },
+   "en": {
+    "title": "Savings and the stock market",
+    "scenario": "You have the equivalent of a year's salary set aside, in an account that earns almost nothing. A colleague advises you to invest half of it in the stock market for the long term. You know little about it and crashes scare you.",
+    "a": "You invest half in the market",
+    "b": "You leave everything in your account",
+    "argsA": [
+     "Over the long run, a diversified investment usually does better than an idle account.",
+     "Doing nothing means losing a little value every year to inflation."
+    ],
+    "argsB": [
+     "Money that can drop thirty percent is no longer safety savings.",
+     "If crashes keep you up at night, peace of mind is worth more than a few percent."
+    ]
+   }
+  },
+  {
+   "id": "l-0214",
+   "kind": "leger",
+   "fr": {
+    "title": "Le vol",
+    "scenario": "À chaque vol, le pilote raconte au micro ta journée la plus gênante. Ou tu es toujours assis entre deux bébés qui ont décidé de ne pas dormir.",
+    "a": "Le pilote raconte ta journée la plus gênante",
+    "b": "Assis entre deux bébés réveillés"
+   },
+   "en": {
+    "title": "The flight",
+    "scenario": "On every flight, the pilot tells the whole cabin about your most embarrassing day. Or you are always seated between two babies who have decided not to sleep.",
+    "a": "The pilot shares your most embarrassing day",
+    "b": "Seated between two wide-awake babies"
+   }
+  }
+ ]
+}
