@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-15",
+ "dilemmas": [
+  {
+   "id": "m-0215",
+   "kind": "moral",
+   "fr": {
+    "title": "Le jour de grève",
+    "scenario": "Ton équipe a voté la grève jeudi pour obtenir le remplacement de deux collègues partis, non remplacés depuis un an. Tu es d'accord sur le fond. Mais tu as signé un crédit immobilier il y a deux mois, ta cheffe a laissé entendre que les grévistes seraient notés, et une journée non payée pèse déjà sur ton budget.",
+    "a": "Tu fais grève avec l'équipe",
+    "b": "Tu travailles jeudi",
+    "argsA": [
+     "Un droit ne vaut que si on l'exerce quand il coûte ; les collègues partis manquaient aussi pour toi.",
+     "Si chacun attend que sa situation soit confortable, personne ne fait jamais grève et rien ne change."
+    ],
+    "argsB": [
+     "Tu peux soutenir le mouvement autrement, et perdre ton crédit ne remplacera personne.",
+     "Une grève est un choix collectif, pas une obligation morale ; ta famille passe avant la cause."
+    ],
+    "philo": "Le contractualisme interroge ce que les collègues se doivent, le conséquentialisme pèse ton risque contre l'effet d'une voix de plus, l'éthique des vertus parle de courage."
+   },
+   "en": {
+    "title": "Strike day",
+    "scenario": "Your team has voted to strike on Thursday to get two departed colleagues replaced, their posts unfilled for a year. You agree with the cause. But you signed a mortgage two months ago, your manager has hinted that strikers would be noted, and an unpaid day already weighs on your budget.",
+    "a": "You strike with the team",
+    "b": "You work on Thursday",
+    "argsA": [
+     "A right is only worth something if you use it when it costs; the missing colleagues were missing for you too.",
+     "If everyone waits for a comfortable moment, nobody ever strikes and nothing changes."
+    ],
+    "argsB": [
+     "You can support the movement another way, and losing your mortgage will replace nobody.",
+     "A strike is a collective choice, not a moral obligation; your family comes before the cause."
+    ],
+    "philo": "Contractualism asks what colleagues owe each other, consequentialism weighs your risk against one more voice, virtue ethics speaks of courage."
+   }
+  },
+  {
+   "id": "v-0215",
+   "kind": "vie",
+   "fr": {
+    "title": "Patron génial ou boulot génial",
+    "scenario": "Deux offres, même salaire, même trajet. La première : un travail répétitif qui ne t'intéresse pas, mais une cheffe que tout le monde adore, à l'écoute, qui défend son équipe. La seconde : le poste exact dont tu rêvais, sous un chef réputé cassant, qui envoie des messages le dimanche soir.",
+    "a": "Le travail ennuyeux avec la cheffe géniale",
+    "b": "Le poste de rêve avec le chef pénible",
+    "argsA": [
+     "On quitte un chef, pas un métier : la personne au-dessus de toi décide de tes journées.",
+     "L'ennui se comble ailleurs ; une boule au ventre le dimanche soir, non."
+    ],
+    "argsB": [
+     "Un chef change, un métier de rêve ne se représente pas forcément.",
+     "Les chefs cassants font souvent les meilleurs CV : tu apprendras vite, puis tu partiras."
+    ]
+   },
+   "en": {
+    "title": "Great boss or great job",
+    "scenario": "Two offers, same pay, same commute. The first: repetitive work that does not interest you, but a manager everyone loves, who listens and defends her team. The second: the exact job you dreamed of, under a boss known to be harsh, who sends messages on Sunday evenings.",
+    "a": "The dull job with the great manager",
+    "b": "The dream job with the harsh boss",
+    "argsA": [
+     "People leave bosses, not jobs: the person above you shapes your days.",
+     "Boredom can be filled elsewhere; a knot in your stomach on Sunday night cannot."
+    ],
+    "argsB": [
+     "Bosses change; a dream job may not come around again.",
+     "Harsh bosses often make the best CVs: you learn fast, then you leave."
+    ]
+   }
+  },
+  {
+   "id": "l-0215",
+   "kind": "leger",
+   "fr": {
+    "title": "Chanter ou rimer",
+    "scenario": "Pendant une semaine, tu dois chanter tout ce que tu dis, ou faire rimer chacune de tes phrases. Travail compris.",
+    "a": "Tout chanter",
+    "b": "Tout faire rimer"
+   },
+   "en": {
+    "title": "Sing or rhyme",
+    "scenario": "For a whole week, you must sing everything you say, or make every sentence rhyme. Work included.",
+    "a": "Sing everything",
+    "b": "Rhyme everything"
+   }
+  }
+ ]
+}
