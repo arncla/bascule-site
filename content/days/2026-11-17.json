@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-17",
+ "dilemmas": [
+  {
+   "id": "m-0217",
+   "kind": "moral",
+   "fr": {
+    "title": "La télévision du voisin",
+    "scenario": "Ton voisin de palier, veuf de quatre-vingts ans, entend mal et met la télévision très fort chaque soir jusqu'à minuit. Tu l'as abordé deux fois, gentiment ; il s'excuse, puis recommence. Tu te lèves à cinq heures. La régie te répondra, tu le sais, par un avertissement écrit qui le terrifiera.",
+    "a": "Tu écris à la régie",
+    "b": "Tu cherches une solution avec lui, casque ou horaires",
+    "argsA": [
+     "Deux conversations n'ont rien changé ; ton sommeil n'est pas une option et la régie est là pour ça.",
+     "Un avertissement n'est pas une expulsion ; c'est le cadre normal entre voisins qui ne s'entendent pas."
+    ],
+    "argsB": [
+     "Un homme seul et sourd n'est pas un voisin bruyant, c'est un voisin en difficulté ; un casque à trente francs règle tout.",
+     "La lettre de la régie lui fera plus de mal que le bruit ne t'en fait."
+    ],
+    "philo": "Le contractualisme voit un règlement d'immeuble qui vaut pour tous, l'éthique du care une personne isolée, l'éthique des vertus la patience et sa limite."
+   },
+   "en": {
+    "title": "The neighbour's television",
+    "scenario": "Your neighbour across the landing, an eighty-year-old widower, is hard of hearing and turns the television up loud every evening until midnight. You have spoken to him twice, kindly; he apologises, then does it again. You get up at five. The letting agency will reply, you know it, with a written warning that will terrify him.",
+    "a": "You write to the agency",
+    "b": "You look for a fix with him, headphones or hours",
+    "argsA": [
+     "Two conversations changed nothing; your sleep is not optional and the agency exists for this.",
+     "A warning is not an eviction; it is the normal framework between neighbours who cannot agree."
+    ],
+    "argsB": [
+     "A lonely, deaf man is not a noisy neighbour, he is a neighbour in difficulty; thirty worth of headphones solves everything.",
+     "The agency's letter will hurt him more than the noise hurts you."
+    ],
+    "philo": "Contractualism sees house rules that apply to everyone, care ethics sees an isolated person, virtue ethics sees patience and its limit."
+   }
+  },
+  {
+   "id": "v-0217",
+   "kind": "vie",
+   "fr": {
+    "title": "Au-dessus de la boulangerie",
+    "scenario": "Deux appartements au même prix, même surface, même quartier. Le premier est au-dessus d'une boulangerie : odeur de pain à quatre heures du matin, et le bruit du pétrin avec. Le second est au-dessus d'un bar sympa : calme en journée, musique et rires jusqu'à une heure du matin, le week-end surtout.",
+    "a": "Au-dessus de la boulangerie",
+    "b": "Au-dessus du bar",
+    "argsA": [
+     "Le bruit du pétrin, on finit par dormir avec ; l'odeur du pain, on ne s'en lasse pas.",
+     "À une heure du matin, tu dors ; à quatre heures, tu dors aussi, mais le pain est prêt."
+    ],
+    "argsB": [
+     "Un bar sympa en bas, c'est un salon de plus, et des voisins qui deviennent des amis.",
+     "Le week-end, tu es souvent dehors de toute façon ; en semaine, c'est le calme."
+    ]
+   },
+   "en": {
+    "title": "Above the bakery",
+    "scenario": "Two flats at the same price, same size, same neighbourhood. The first is above a bakery: smell of bread at four in the morning, and the noise of the mixer with it. The second is above a friendly bar: quiet by day, music and laughter until one in the morning, mostly at weekends.",
+    "a": "Above the bakery",
+    "b": "Above the bar",
+    "argsA": [
+     "You end up sleeping through the mixer; you never tire of the smell of bread.",
+     "At one in the morning you are asleep; at four you are asleep too, but the bread is ready."
+    ],
+    "argsB": [
+     "A friendly bar downstairs is an extra living room, and neighbours who become friends.",
+     "At weekends you are often out anyway; on weekdays it is quiet."
+    ]
+   }
+  },
+  {
+   "id": "l-0217",
+   "kind": "leger",
+   "fr": {
+    "title": "Le voisin",
+    "scenario": "Ton nouveau voisin, au choix : une fanfare qui répète le dimanche à sept heures, ou un apiculteur dont les abeilles adorent ton balcon.",
+    "a": "La fanfare du dimanche matin",
+    "b": "L'apiculteur et ses abeilles"
+   },
+   "en": {
+    "title": "The new neighbour",
+    "scenario": "Your new neighbour, your pick: a brass band that rehearses on Sundays at seven a.m., or a beekeeper whose bees love your balcony.",
+    "a": "The Sunday morning brass band",
+    "b": "The beekeeper and the bees"
+   }
+  }
+ ]
+}
