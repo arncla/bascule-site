@@ -2,85 +2,85 @@
  "date": "2026-11-18",
  "dilemmas": [
   {
-   "id": "m-0218",
+   "id": "m-0202",
    "kind": "moral",
    "fr": {
-    "title": "La boutique et le cortège",
-    "scenario": "Tu tiens une petite boutique en centre-ville. Samedi, une manifestation pour une cause que tu soutiens sincèrement passera devant chez toi, et les organisateurs demandent aux commerçants de baisser le rideau en solidarité. Le samedi représente un tiers de ta semaine, et ton employée, qui n'a pas d'avis sur la question, compte sur ses heures.",
-    "a": "Tu fermes la boutique en solidarité",
-    "b": "Tu restes ouvert",
+    "title": "La collecte pour le départ",
+    "scenario": "Un collègue quitte l'entreprise. Pendant trois ans, il s'est attribué ton travail en réunion et t'a écartée d'un projet que tu avais lancé. Ce matin, une enveloppe circule pour son cadeau de départ, avec la liste des noms de ceux qui ont donné. Tout le monde a mis vingt francs. L'enveloppe arrive sur ton bureau.",
+    "a": "Tu donnes vingt francs comme tout le monde",
+    "b": "Tu fais passer l'enveloppe sans donner",
     "argsA": [
-     "Soutenir une cause sans jamais rien lui sacrifier, c'est un avis, pas un engagement.",
-     "Un rideau baissé parle plus fort qu'un message partagé ; c'est le seul geste que ta boutique peut faire."
+     "Vingt francs, c'est le prix de la paix dans une équipe qui reste après son départ.",
+     "Le cadeau honore un rituel collectif, pas la personne ; tu donnes au groupe, pas à lui."
     ],
     "argsB": [
-     "Ton employée n'a pas choisi cette cause ; lui retirer ses heures, c'est faire payer ton engagement à quelqu'un d'autre.",
-     "Une boutique ouverte peut accueillir, abriter, offrir de l'eau ; fermée, elle ne sert plus à personne."
+     "Donner, c'est signer que tout allait bien ; ton nom absent de la liste dit la vérité sans un mot.",
+     "La politesse qui récompense celui qui t'a nui n'est pas de la politesse, c'est de l'effacement."
     ],
-    "philo": "La déontologie demande de vivre selon ses convictions, le conséquentialisme compare le symbole au coût concret, l'éthique du care regarde l'employée avant le cortège."
+    "philo": "L'éthique des vertus demande ce que ferait une personne magnanime, la déontologie si la sincérité oblige, le contractualisme ce que le groupe peut attendre de chacun."
    },
    "en": {
-    "title": "The shop and the march",
-    "scenario": "You run a small shop in the town centre. On Saturday a demonstration for a cause you sincerely support will pass your door, and the organisers are asking shopkeepers to pull down their shutters in solidarity. Saturday is a third of your week, and your employee, who has no opinion on the matter, counts on her hours.",
-    "a": "You close the shop in solidarity",
-    "b": "You stay open",
+    "title": "The leaving collection",
+    "scenario": "A colleague is leaving the company. For three years he took credit for your work in meetings and pushed you off a project you had started. This morning an envelope goes round for his leaving gift, with the list of everyone who has given. Everyone put in twenty. The envelope lands on your desk.",
+    "a": "You give twenty like everyone else",
+    "b": "You pass the envelope on without giving",
     "argsA": [
-     "Supporting a cause without ever sacrificing anything for it is an opinion, not a commitment.",
-     "A closed shutter speaks louder than a shared post; it is the only gesture your shop can make."
+     "Twenty is the price of peace in a team that stays after he is gone.",
+     "The gift honours a shared ritual, not the person; you are giving to the group, not to him."
     ],
     "argsB": [
-     "Your employee did not choose this cause; taking her hours makes someone else pay for your commitment.",
-     "An open shop can welcome, shelter, hand out water; closed, it serves no one."
+     "Giving signs off that everything was fine; your name missing from the list tells the truth without a word.",
+     "Politeness that rewards the person who harmed you is not politeness, it is erasure."
     ],
-    "philo": "Deontology asks you to live by your convictions, consequentialism weighs the symbol against the concrete cost, care ethics looks at the employee before the march."
+    "philo": "Virtue ethics asks what a magnanimous person would do, deontology whether sincerity is owed, and contractualism what the group may expect from each member."
    }
   },
   {
-   "id": "v-0218",
+   "id": "v-0202",
    "kind": "vie",
    "fr": {
-    "title": "Chef de tes collègues",
-    "scenario": "On te propose de devenir responsable de ton équipe. Tu dirigerais tes collègues d'hier, dont deux amis proches avec qui tu déjeunes chaque jour. Le salaire augmente nettement, mais tu devras évaluer leur travail.",
-    "a": "Tu acceptes le poste de responsable",
-    "b": "Tu restes dans l'équipe",
+    "title": "Le télétravail complet",
+    "scenario": "Ton employeur propose le télétravail à cent pour cent à qui le veut. Tu gagnerais deux heures de trajet par jour. Mais ton équipe reste au bureau, et c'est là que se décident les projets et que tu as tes meilleurs amis au travail.",
+    "a": "Tu passes au télétravail complet",
+    "b": "Tu restes au bureau avec l'équipe",
     "argsA": [
-     "Mieux vaut un chef qui connaît l'équipe qu'un inconnu parachuté.",
-     "Une promotion pareille ne se représente pas forcément ; tes amis le comprendront."
+     "Deux heures par jour, c'est plus de quatre cents heures par an rendues à ta vie.",
+     "Ton travail se juge sur ce que tu livres, pas sur ta présence à la machine à café."
     ],
     "argsB": [
-     "Évaluer ses amis, c'est abîmer l'amitié ou mal faire son travail.",
-     "Tu aimes ce que tu fais aujourd'hui, et l'ambiance vaut plus qu'une augmentation."
+     "Loin des yeux, loin des projets : les bonnes missions vont à ceux qu'on croise.",
+     "Les amitiés de bureau tiennent au quotidien partagé ; à distance, elles s'éteignent doucement."
     ]
    },
    "en": {
-    "title": "Managing your colleagues",
-    "scenario": "You are offered the job of team lead. You would manage yesterday's colleagues, including two close friends you have lunch with every day. The pay rises sharply, but you would have to assess their work.",
-    "a": "You take the team lead job",
-    "b": "You stay in the team",
+    "title": "Working from home for good",
+    "scenario": "Your employer offers fully remote work to anyone who wants it. You would save two hours of commuting a day. But your team is staying in the office, where projects get decided and where your best work friends are.",
+    "a": "You go fully remote",
+    "b": "You stay in the office with the team",
     "argsA": [
-     "Better a lead who knows the team than a stranger dropped in from above.",
-     "An offer like this may not come again; your friends will understand."
+     "Two hours a day is over four hundred hours a year given back to your life.",
+     "Your work is judged on what you deliver, not on your presence by the coffee machine."
     ],
     "argsB": [
-     "Assessing your friends means hurting the friendship or doing the job badly.",
-     "You enjoy what you do now, and the atmosphere is worth more than a raise."
+     "Out of sight, out of the loop: the good projects go to the people you bump into.",
+     "Office friendships live on shared days; at a distance, they slowly fade."
     ]
    }
   },
   {
-   "id": "l-0218",
+   "id": "l-0202",
    "kind": "leger",
    "fr": {
-    "title": "Le hoquet ou le petit orteil",
-    "scenario": "Plus jamais de hoquet, mais tu éternues chaque fois qu'on dit ton prénom. Ou plus jamais l'orteil cogné, mais tu trébuches sur rien une fois par jour, toujours devant quelqu'un.",
-    "a": "Fini le hoquet, mais tu éternues à ton prénom",
-    "b": "Fini l'orteil cogné, mais tu trébuches chaque jour en public"
+    "title": "Le million qui crie",
+    "scenario": "On t'offre un million. Une seule condition : à chaque achat, même un chewing-gum, pour toujours, tu cries « C'est l'argent du million » et tu attends les applaudissements.",
+    "a": "Tu prends le million",
+    "b": "Tu refuses"
    },
    "en": {
-    "title": "Hiccups or the little toe",
-    "scenario": "No more hiccups, but you sneeze every time someone says your name. Or no more stubbed toes, but you trip over nothing once a day, always in front of someone.",
-    "a": "No more hiccups, but you sneeze at your name",
-    "b": "No more stubbed toes, but a daily public trip"
+    "title": "The shouting million",
+    "scenario": "You are offered a million. One condition: with every purchase, even a pack of gum, forever, you shout “That's the million money” and wait for the applause.",
+    "a": "You take the million",
+    "b": "You turn it down"
    }
   }
  ]
