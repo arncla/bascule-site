@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-19",
+ "dilemmas": [
+  {
+   "id": "m-0221",
+   "kind": "moral",
+   "fr": {
+    "title": "Le garant",
+    "scenario": "Ta sœur a enfin trouvé un appartement après des mois de refus, mais la régie exige un garant. Elle te le demande. Tu gagnes correctement ta vie, elle non ; il y a deux ans, elle a perdu son emploi et tu as déjà épongé trois mois de loyer qu'elle n'a jamais pu te rendre. Elle a un contrat fixe depuis six mois.",
+    "a": "Tu te portes garant",
+    "b": "Tu refuses",
+    "argsA": [
+     "Sans toi, elle reste chez des amis avec ses cartons ; un contrat fixe depuis six mois mérite une chance.",
+     "On ne choisit pas sa famille, mais on choisit si on la laisse à la porte."
+    ],
+    "argsB": [
+     "Un garant paie quand ça casse, et ça a déjà cassé ; tu as le droit de protéger ta propre stabilité.",
+     "Dire non maintenant évite de dire « tu me dois » pendant dix ans."
+    ],
+    "philo": "L'éthique du care place le lien avant le risque, le conséquentialisme pèse l'issue probable, la déontologie demande si l'on doit à sa famille plus qu'à soi."
+   },
+   "en": {
+    "title": "The guarantor",
+    "scenario": "Your sister has finally found a flat after months of rejections, but the agency requires a guarantor. She asks you. You earn a decent living, she does not; two years ago she lost her job and you already covered three months of rent she never managed to repay. She has had a permanent contract for six months.",
+    "a": "You stand as guarantor",
+    "b": "You refuse",
+    "argsA": [
+     "Without you she stays on friends' sofas with her boxes; six months on a permanent contract deserves a chance.",
+     "You do not choose your family, but you do choose whether to leave them at the door."
+    ],
+    "argsB": [
+     "A guarantor pays when things break, and they already broke once; you are allowed to protect your own stability.",
+     "Saying no now avoids saying 'you owe me' for ten years."
+    ],
+    "philo": "Care ethics puts the bond before the risk, consequentialism weighs the likely outcome, deontology asks whether you owe your family more than yourself."
+   }
+  },
+  {
+   "id": "v-0219",
+   "kind": "vie",
+   "fr": {
+    "title": "Le voyage en solo",
+    "scenario": "Tes amis annulent le voyage au Japon prévu depuis un an. Les billets sont pris, les congés posés. Tu n'as jamais voyagé seul et l'idée t'intimide, mais repousser voudrait dire perdre une partie de l'argent.",
+    "a": "Tu pars seul",
+    "b": "Tu annules et repousses avec eux",
+    "argsA": [
+     "Voyager seul, c'est rencontrer des gens qu'on ne croise jamais en groupe.",
+     "Les billets sont pris : renoncer, c'est payer pour rester chez toi."
+    ],
+    "argsB": [
+     "Un voyage rêvé à plusieurs ne se remplace pas par une version en solo.",
+     "Perdre un peu d'argent vaut mieux que deux semaines à te sentir seul au bout du monde."
+    ]
+   },
+   "en": {
+    "title": "Travelling alone",
+    "scenario": "Your friends cancel the trip to Japan you planned a year ago. The tickets are booked, the leave approved. You have never travelled alone and the idea intimidates you, but postponing would mean losing part of the money.",
+    "a": "You go alone",
+    "b": "You cancel and postpone with them",
+    "argsA": [
+     "Travelling alone means meeting people you never meet in a group.",
+     "The tickets are booked: giving up means paying to stay at home."
+    ],
+    "argsB": [
+     "A trip dreamed up together cannot be replaced by a solo version.",
+     "Losing some money beats two weeks feeling lonely on the other side of the world."
+    ]
+   }
+  },
+  {
+   "id": "l-0219",
+   "kind": "leger",
+   "fr": {
+    "title": "Dentifrice ou croustillant",
+    "scenario": "Pour toujours : tout ce que tu bois a un arrière-goût de dentifrice, ou tout ce que tu manges croustille, yaourt compris.",
+    "a": "Un arrière-goût de dentifrice",
+    "b": "Tout croustille, yaourt compris"
+   },
+   "en": {
+    "title": "Toothpaste or crunch",
+    "scenario": "For good: everything you drink has a toothpaste aftertaste, or everything you eat is crunchy, yoghurt included.",
+    "a": "A toothpaste aftertaste",
+    "b": "Everything crunches, yoghurt included"
+   }
+  }
+ ]
+}
